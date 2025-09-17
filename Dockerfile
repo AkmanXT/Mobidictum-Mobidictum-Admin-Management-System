@@ -15,7 +15,8 @@ FROM python:3.11-slim
 # Install Node.js in Python image
 COPY --from=node-base /usr/local/bin/node /usr/local/bin/
 COPY --from=node-base /usr/local/lib/node_modules /usr/local/lib/node_modules
-RUN ln -s /usr/local/lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm
+RUN ln -s /usr/local/lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm && \
+    ln -s /usr/local/lib/node_modules/npm/bin/npx-cli.js /usr/local/bin/npx
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -28,6 +29,7 @@ WORKDIR /app
 
 # Copy Node.js files and dependencies
 COPY --from=node-base /app/node_modules ./node_modules
+COPY --from=node-base /root/.cache/ms-playwright /root/.cache/ms-playwright
 COPY package*.json ./
 COPY tsconfig.json ./
 COPY src/ ./src/
@@ -36,9 +38,6 @@ COPY dist/ ./dist/
 # Copy Python requirements and install
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-
-# Install Playwright browsers in the final image (required at runtime)
-RUN npx playwright install --with-deps chromium
 
 # Build TypeScript if needed
 RUN npm run build
