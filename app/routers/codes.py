@@ -55,7 +55,8 @@ async def list_codes(
     organization_id: Optional[str] = Query(None),
     limit: int = Query(50, le=1000),
     offset: int = Query(0, ge=0),
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """List codes with optional filters."""
     try:
@@ -100,7 +101,8 @@ async def list_codes(
 @router.get("/{code}", response_model=APIResponse)
 async def get_code(
     code: str,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Get a specific code by its code value."""
     try:
@@ -132,7 +134,8 @@ async def get_code(
 async def allocate_code(
     code_type: Optional[CodeType] = Query(CodeType.discount),
     organization_id: Optional[str] = Query(None),
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """
     Atomically allocate one active, unused code and mark it as used.
@@ -175,7 +178,8 @@ async def allocate_code(
 @router.post("/{code}/mark-used", response_model=APIResponse)
 async def mark_code_used(
     code: str,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Explicitly mark a code as used."""
     try:
@@ -236,7 +240,8 @@ async def mark_code_used(
 @router.post("/{code}/revoke", response_model=APIResponse)
 async def revoke_code(
     code: str,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Revoke a code (set status to revoked)."""
     try:
@@ -282,7 +287,8 @@ async def revoke_code(
 async def update_code(
     code: str,
     update_data: CodeUpdate,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Update code properties."""
     try:

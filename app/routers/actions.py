@@ -211,7 +211,8 @@ async def request_code_deletion(
 async def request_code_rename(
     old_code: str,
     rename_data: Dict[str, str],
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Request renaming of a discount code in Fienta"""
     try:
@@ -279,7 +280,8 @@ async def request_code_rename(
 
 @router.get("/status")
 async def get_actions_status(
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Get status of pending actions"""
     try:
@@ -325,7 +327,9 @@ async def get_actions_status(
         )
 
 @router.post("/process-now")
-async def trigger_action_processing():
+async def trigger_action_processing(
+    auth: bool = Depends(verify_api_key)
+):
     """Manually trigger action processing (for testing/debugging)"""
     try:
         scheduler = get_scheduler()
@@ -348,7 +352,8 @@ async def trigger_action_processing():
 async def get_action_history(
     limit: int = 50,
     action_type: Optional[str] = None,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Get history of completed actions"""
     try:

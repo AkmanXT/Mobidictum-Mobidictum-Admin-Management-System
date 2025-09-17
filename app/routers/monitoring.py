@@ -8,13 +8,15 @@ from typing import Dict, Any
 
 from app.deps import get_supabase_client
 from app.services.scheduler import get_scheduler, MonitoringScheduler
+from app.auth import verify_api_key
 from app.services.fienta_monitor import FientaMonitorService
 
 router = APIRouter(prefix="/api/monitoring", tags=["monitoring"])
 
 @router.get("/status")
 async def get_monitoring_status(
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ) -> Dict[str, Any]:
     """Get comprehensive monitoring status"""
     try:
