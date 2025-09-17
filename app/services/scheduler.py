@@ -206,17 +206,22 @@ class MonitoringScheduler:
             'action_processor': self.action_processor.get_status()
         }
 
-# Global scheduler instance
-monitoring_scheduler = MonitoringScheduler()
+# Global scheduler instance - lazy initialization
+_monitoring_scheduler = None
+
+def get_scheduler() -> MonitoringScheduler:
+    """Get the global monitoring scheduler (lazy initialization)"""
+    global _monitoring_scheduler
+    if _monitoring_scheduler is None:
+        _monitoring_scheduler = MonitoringScheduler()
+    return _monitoring_scheduler
 
 async def start_monitoring():
     """Start the global monitoring scheduler"""
-    await monitoring_scheduler.start()
+    scheduler = get_scheduler()
+    await scheduler.start()
 
 async def stop_monitoring():
     """Stop the global monitoring scheduler"""
-    await monitoring_scheduler.stop()
-
-def get_scheduler() -> MonitoringScheduler:
-    """Get the global scheduler instance"""
-    return monitoring_scheduler
+    scheduler = get_scheduler()
+    await scheduler.stop()
