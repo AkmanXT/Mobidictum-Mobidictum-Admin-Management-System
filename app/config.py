@@ -1,5 +1,6 @@
 from pydantic_settings import BaseSettings
 from typing import Optional
+from pydantic import field_validator
 
 
 class Settings(BaseSettings):
@@ -29,6 +30,14 @@ class Settings(BaseSettings):
         "https://fienta-code-manager.vercel.app",
         "https://fienta-code-manager-*.vercel.app"
     ]
+    
+    @field_validator('cors_origins', mode='before')
+    @classmethod
+    def parse_cors_origins(cls, v):
+        if isinstance(v, str):
+            # Handle comma-separated string from environment variables
+            return [origin.strip() for origin in v.split(',') if origin.strip()]
+        return v
     
     # Monitoring settings
     enable_monitoring: bool = False  # Disabled - use manual API calls instead
