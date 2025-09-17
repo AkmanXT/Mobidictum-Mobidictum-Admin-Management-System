@@ -6,7 +6,7 @@ import logging
 import os
 
 from app.config import settings
-from app.routers import webhooks, codes, automation, jobs, email, links, monitoring, actions
+from app.routers import webhooks, codes, automation, jobs, email, links, monitoring, actions, auth
 from app.services.scheduler import start_monitoring, stop_monitoring
 
 # Configure logging
@@ -49,6 +49,7 @@ app.include_router(email.router)
 app.include_router(links.router)
 app.include_router(monitoring.router)
 app.include_router(actions.router)
+app.include_router(auth.router)
 
 
 # Ensure all errors return JSON consistently
