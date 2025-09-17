@@ -1,0 +1,290 @@
+[
+  {
+    "code": "BESINCIKURAL-01-FU4",
+    "ordersUsed": 0,
+    "orderLimit": 0,
+    "ticketsUsed": 0,
+    "ticketLimit": 0,
+    "orders": [],
+    "discountId": "246979",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246979/edit"
+  },
+  {
+    "code": "HUBX-02-DFQ",
+    "ordersUsed": 0,
+    "orderLimit": 0,
+    "ticketsUsed": 0,
+    "ticketLimit": 0,
+    "orders": [],
+    "discountId": "246812",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246812/edit"
+  },
+  {
+    "code": "HUBX-01-XKQ",
+    "ordersUsed": 0,
+    "orderLimit": 0,
+    "ticketsUsed": 0,
+    "ticketLimit": 0,
+    "orders": [],
+    "discountId": "246811",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246811/edit"
+  },
+  {
+    "code": "DEVNULLPRODUCTION-02-TXY",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246760",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246760/edit"
+  },
+  {
+    "code": "DISNEY-01-88R",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246587",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246587/edit"
+  },
+  {
+    "code": "24PLAY-01-OWQ",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246586",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246586/edit"
+  },
+  {
+    "code": "ZOMBIE-01-FP4",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246585",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246585/edit"
+  },
+  {
+    "code": "STRAWBERRYGAMES-01-U5R",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3751567",
+        "orderDate": "12.09.2025 10:45",
+        "customerEmail": "kerempilav@gmail.com",
+        "customerPhone": "+4915175811738",
+        "ticketCount": 1,
+        "totalAmount": "149.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "STRAWBERRYGAMES-01-U5R",
+        "ticketDetails": [
+          {
+            "ticketCode": "ETVLP4EDZE",
+            "ticketType": "Basic",
+            "attendeeEmail": "kerempilav@gmail.com",
+            "attendeeName": "",
+            "price": "149.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ],
+    "discountId": "246584",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246584/edit"
+  },
+  {
+    "code": "WEMADEPLAY-04-XX5",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246583",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246583/edit"
+  },
+  {
+    "code": "WEMADEPLAY-03-DEO",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246582",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246582/edit"
+  },
+  {
+    "code": "WEMADEPLAY-02-G7Q",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246581",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246581/edit"
+  },
+  {
+    "code": "WEMADEPLAY-01-WNV",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246580",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246580/edit"
+  },
+  {
+    "code": "BESINCIKURAL-02-OQC",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246492",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246492/edit"
+  },
+  {
+    "code": "VOLOSONIC-01-HP9",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3750920",
+        "orderDate": "12.09.2025 06:02",
+        "customerEmail": "jack@volosonic.com",
+        "customerPhone": "+8613810813643",
+        "ticketCount": 1,
+        "totalAmount": "149.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "VOLOSONIC-01-HP9",
+        "ticketDetails": [
+          {
+            "ticketCode": "DZMTTFYXRH",
+            "ticketType": "Basic",
+            "attendeeEmail": "jack@volosonic.com",
+            "attendeeName": "",
+            "price": "149.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ],
+    "discountId": "246490",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246490/edit"
+  },
+  {
+    "code": "VOODOO-03-LVB",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246486",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246486/edit"
+  },
+  {
+    "code": "VOODOO-02-1SX",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3752598",
+        "orderDate": "12.09.2025 13:05",
+        "customerEmail": "muratb@voodoo.io",
+        "customerPhone": "",
+        "ticketCount": 1,
+        "totalAmount": "329.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "VOODOO-02-1SX",
+        "ticketDetails": [
+          {
+            "ticketCode": "RN28PE92RA",
+            "ticketType": "Professional",
+            "attendeeEmail": "muratb@voodoo.io",
+            "attendeeName": "",
+            "price": "329.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ],
+    "discountId": "246484",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246484/edit"
+  },
+  {
+    "code": "VOODOO-01-E9Z",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3749901",
+        "orderDate": "11.09.2025 21:34",
+        "customerEmail": "remi.de-barbuat@voodoo.io",
+        "customerPhone": "+33782888328",
+        "ticketCount": 1,
+        "totalAmount": "329.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "VOODOO-01-E9Z",
+        "ticketDetails": [
+          {
+            "ticketCode": "REJCKXXEMK",
+            "ticketType": "Professional",
+            "attendeeEmail": "remi.de-barbuat@voodoo.io",
+            "attendeeName": "",
+            "price": "329.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ],
+    "discountId": "246482",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246482/edit"
+  },
+  {
+    "code": "ROVIO-02-Y22",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246481",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246481/edit"
+  },
+  {
+    "code": "ROVIO-01-G6W",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246480",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246480/edit"
+  },
+  {
+    "code": "LIONSTUDIOS-02-UWQ",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": [],
+    "discountId": "246479",
+    "editUrl": "https://fienta.com/my/events/118714/discounts/246479/edit"
+  }
+]

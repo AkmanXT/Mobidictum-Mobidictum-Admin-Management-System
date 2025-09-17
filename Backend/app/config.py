@@ -1,0 +1,51 @@
+from pydantic_settings import BaseSettings
+from typing import Optional, Union
+from pydantic import field_validator, model_validator
+
+
+class Settings(BaseSettings):
+    # Supabase
+    supabase_url: Optional[str] = None
+    supabase_service_role_key: Optional[str] = None
+    
+    # API Security
+    api_key: Optional[str] = None
+    
+    # Webhook auth
+    make_token: Optional[str] = None
+    
+    # Fienta credentials for automation
+    fienta_email: Optional[str] = None
+    fienta_password: Optional[str] = None
+    fienta_base_url: str = "https://fienta.com"
+    
+    # Email/Gmail credentials
+    gmail_credentials_path: Optional[str] = None
+    gmail_token_path: Optional[str] = None
+    
+    # App settings
+    environment: str = "development"
+    log_level: str = "INFO"
+    cors_origins: str = "http://localhost:3000,https://v0.app,https://preview-cmo-system-design-kzmjzsgx8ycwmsao2aga.vusercontent.net,https://your-frontend-domain.com,https://fienta-code-manager.vercel.app,https://fienta-code-manager-*.vercel.app"
+    
+    @property
+    def cors_origins_list(self) -> list[str]:
+        """Convert CORS origins string to list"""
+        if isinstance(self.cors_origins, str):
+            return [origin.strip() for origin in self.cors_origins.split(',') if origin.strip()]
+        return self.cors_origins
+    
+    # Monitoring settings
+    enable_monitoring: bool = True  # Enabled - automatically process pending actions
+    fienta_event_id: str = "118714"
+    
+    # Job execution
+    job_timeout_seconds: int = 3600  # 1 hour
+    max_concurrent_jobs: int = 3
+    
+    class Config:
+        env_file = ".env"
+        extra = "ignore"  # Ignore extra environment variables
+
+
+settings = Settings()

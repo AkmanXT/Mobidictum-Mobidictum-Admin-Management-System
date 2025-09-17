@@ -1,0 +1,162 @@
+[
+  {
+    "code": "HUBX-02-DFQ",
+    "ordersUsed": 0,
+    "orderLimit": 0,
+    "ticketsUsed": 1,
+    "ticketLimit": null,
+    "orders": []
+  },
+  {
+    "code": "HUBX-01-XKQ",
+    "ordersUsed": 0,
+    "orderLimit": 0,
+    "ticketsUsed": 1,
+    "ticketLimit": null,
+    "orders": []
+  },
+  {
+    "code": "DEVNULLPRODUCTION-02-TXY",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "DISNEY-01-88R",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "24PLAY-01-OWQ",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "ZOMBIE-01-FP4",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "STRAWBERRYGAMES-01-U5R",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "WEMADEPLAY-04-XX5",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "WEMADEPLAY-03-DEO",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "WEMADEPLAY-02-G7Q",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "WEMADEPLAY-01-WNV",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "BESINCIKURAL-02-OQC",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "BESINCIKURAL-01-FU4",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "VOLOSONIC-01-HP9",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "VOODOO-03-LVB",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "VOODOO-02-1SX",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "VOODOO-01-E9Z",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "ROVIO-02-Y22",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "ROVIO-01-G6W",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "LIONSTUDIOS-02-UWQ",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  }
+]

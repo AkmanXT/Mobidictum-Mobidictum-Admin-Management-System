@@ -1,0 +1,250 @@
+[
+  {
+    "code": "HUBX-02-DFQ",
+    "ordersUsed": 0,
+    "orderLimit": 0,
+    "ticketsUsed": 0,
+    "ticketLimit": 0,
+    "orders": []
+  },
+  {
+    "code": "HUBX-01-XKQ",
+    "ordersUsed": 0,
+    "orderLimit": 0,
+    "ticketsUsed": 0,
+    "ticketLimit": 0,
+    "orders": []
+  },
+  {
+    "code": "DEVNULLPRODUCTION-02-TXY",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "DISNEY-01-88R",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "24PLAY-01-OWQ",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "ZOMBIE-01-FP4",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "STRAWBERRYGAMES-01-U5R",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3751567",
+        "orderDate": "12.09.2025 10:45",
+        "customerEmail": "kerempilav@gmail.com",
+        "customerPhone": "+4915175811738",
+        "ticketCount": 1,
+        "totalAmount": "149.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "STRAWBERRYGAMES-01-U5R",
+        "ticketDetails": [
+          {
+            "ticketCode": "ETVLP4EDZE",
+            "ticketType": "Basic",
+            "attendeeEmail": "kerempilav@gmail.com",
+            "attendeeName": "",
+            "price": "149.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ]
+  },
+  {
+    "code": "WEMADEPLAY-04-XX5",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "WEMADEPLAY-03-DEO",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "WEMADEPLAY-02-G7Q",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "WEMADEPLAY-01-WNV",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "BESINCIKURAL-02-OQC",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "BESINCIKURAL-01-FU4",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "VOLOSONIC-01-HP9",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3750920",
+        "orderDate": "12.09.2025 06:02",
+        "customerEmail": "jack@volosonic.com",
+        "customerPhone": "+8613810813643",
+        "ticketCount": 1,
+        "totalAmount": "149.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "VOLOSONIC-01-HP9",
+        "ticketDetails": [
+          {
+            "ticketCode": "DZMTTFYXRH",
+            "ticketType": "Basic",
+            "attendeeEmail": "jack@volosonic.com",
+            "attendeeName": "",
+            "price": "149.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ]
+  },
+  {
+    "code": "VOODOO-03-LVB",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "VOODOO-02-1SX",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3752598",
+        "orderDate": "12.09.2025 13:05",
+        "customerEmail": "muratb@voodoo.io",
+        "customerPhone": "",
+        "ticketCount": 1,
+        "totalAmount": "329.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "VOODOO-02-1SX",
+        "ticketDetails": [
+          {
+            "ticketCode": "RN28PE92RA",
+            "ticketType": "Professional",
+            "attendeeEmail": "muratb@voodoo.io",
+            "attendeeName": "",
+            "price": "329.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ]
+  },
+  {
+    "code": "VOODOO-01-E9Z",
+    "ordersUsed": 1,
+    "orderLimit": 1,
+    "ticketsUsed": 1,
+    "ticketLimit": 1,
+    "orders": [
+      {
+        "orderId": "3749901",
+        "orderDate": "11.09.2025 21:34",
+        "customerEmail": "remi.de-barbuat@voodoo.io",
+        "customerPhone": "+33782888328",
+        "ticketCount": 1,
+        "totalAmount": "329.40",
+        "currency": "€",
+        "status": "completed",
+        "discountCode": "VOODOO-01-E9Z",
+        "ticketDetails": [
+          {
+            "ticketCode": "REJCKXXEMK",
+            "ticketType": "Professional",
+            "attendeeEmail": "remi.de-barbuat@voodoo.io",
+            "attendeeName": "",
+            "price": "329.40 €"
+          }
+        ],
+        "customerName": ""
+      }
+    ]
+  },
+  {
+    "code": "ROVIO-02-Y22",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "ROVIO-01-G6W",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  },
+  {
+    "code": "LIONSTUDIOS-02-UWQ",
+    "ordersUsed": 0,
+    "orderLimit": 1,
+    "ticketsUsed": 0,
+    "ticketLimit": 1,
+    "orders": []
+  }
+]
