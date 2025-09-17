@@ -34,7 +34,7 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins,
+    allow_origins=settings.cors_origins_list,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -120,7 +120,7 @@ async def combined_startup_event():
     """Combined application startup event."""
     logger.info("Starting Fienta Code Manager API")
     logger.info(f"Environment: {settings.environment}")
-    logger.info(f"CORS origins: {settings.cors_origins}")
+    logger.info(f"CORS origins: {settings.cors_origins_list}")
     
     # Ensure logs directory exists
     os.makedirs("logs", exist_ok=True)
