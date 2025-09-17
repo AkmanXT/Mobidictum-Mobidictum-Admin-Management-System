@@ -1,0 +1,15 @@
+[
+  {
+    "to": [
+      "serdar@mobidictum.com"
+    ],
+    "cc": [],
+    "subject": "Testing: Mobidictum Conference 2025 email pipeline",
+    "text": "Testing send pipeline. If you received this, reply OK.\n\nThis is a test message sent by the Fienta Code Manager.",
+    "html": "<p>Testing send pipeline. If you received this, reply OK.</p><p>This is a test message sent by the Fienta Code Manager.</p>",
+    "metadata": {
+      "test": true,
+      "timestamp": "2025-09-02T23:29:45.762Z"
+    }
+  }
+]

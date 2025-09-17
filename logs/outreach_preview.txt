@@ -1,0 +1,273 @@
+OKAN TOPAL <okan.topal@play2daygames.com>
+Studio: play2day games
+Tickets: 2
+Action: send_new_code
+Code: PLAY2DAYGAMES-02-JPW (order=1, ticket=2)
+Notes: Should send a new code applied recently. Muhammed Can Adıgüzel
+----------------------------------------
+Muhammed Can Adıgüzel <muhammedcan@risestudiogame.com>
+Studio: Rise Studio Oyun Yazılım A.Ş.
+Tickets: 3
+Action: send_new_code
+Code: RISESTUDIOOYUNYA-03-96X (order=1, ticket=3)
+Notes: Should send a new code applied recently. Cumali Onur Gokce
+----------------------------------------
+Cumali Onur Gokce <o.gokce@conurgokce.com>
+Studio: Zentium Studio
+Tickets: 3
+Action: send_new_code
+Code: ZENTIUMSTUDIO-03-6NW (order=1, ticket=3)
+Notes: Should send a new code applied recently. Bayram Güngör
+----------------------------------------
+Bayram Güngör <bayramgunngor@gmail.com>
+Studio: Six Pawns
+Tickets: 5
+Action: send_new_code
+Code: SIXPAWNS-05-TP8 (order=1, ticket=5)
+Notes: Should send a new code applied recently. Ceren Figanioğlu
+----------------------------------------
+Ceren Figanioğlu <ceren.dagar@rovio.com>
+Studio: RUBY GAME STUDIO / ROVIO
+Tickets: 4
+Action: send_new_code
+Code: RUBYGAMESTUDIORO-04-9QA (order=1, ticket=4)
+Notes: Should send a new code applied recently. ömer faruk bir
+----------------------------------------
+ömer faruk bir <omer@keepgames.co>
+Studio: Keep Games
+Tickets: 1
+Action: send_new_code
+Code: KEEPGAMES-01-YWY (order=1, ticket=1)
+Notes: Should send a new code applied recently. Gökhan Besler
+----------------------------------------
+Gökhan Besler <gokhan@superblend.com>
+Studio: Superblend
+Tickets: 1
+Action: reject
+Code: -
+Notes: App Developer if you decide to share a code share a new one otherwise reject them and tell them the reason. Asad khan
+----------------------------------------
+Asad khan <asad@gamedistric.co>
+Studio: Game District
+Tickets: 1
+Action: review
+Code: -
+Notes: They are a game publisher with many studios actually they are a kinda service provider so not sure we should give a code or not. Mohammad Amin Atoufi
+----------------------------------------
+Mohammad Amin Atoufi <amin@friendzy.xyz>
+Studio: Friendzy Studio
+Tickets: 1
+Action: send_new_code
+Code: FRIENDZYSTUDIO-01-SYV (order=1, ticket=1)
+Notes: Should send a new code applied recently. Finz Games
+----------------------------------------
+Finz Games <contact@finz.io>
+Studio: Finz Games
+Tickets: 2
+Action: send_new_code
+Code: FINZGAMES-02-8VQ (order=1, ticket=2)
+Notes: Should send a new code applied recently. Thi Thu Ha Nguyen
+----------------------------------------
+Thi Thu Ha Nguyen <thmm1809@gmail.com>
+Studio: HAPIGA VIET NAM COMPANY LIMITED
+Tickets: 2
+Action: send_new_code
+Code: HAPIGAVIETNAMCOM-02-GEQ (order=1, ticket=2)
+Notes: Should send a new code applied recently. Zafer Artukoğlu
+----------------------------------------
+Zafer Artukoğlu <zaferajnx1212@outlook.com>
+Studio: Aegean Crafters
+Tickets: 4
+Action: send_new_code
+Code: AEGEANCRAFTERS-04-DVB (order=1, ticket=4)
+Notes: Should send a new code applied recently. Michel Roskam
+----------------------------------------
+Michel Roskam <mroskam@gamepoint.com>
+Studio: GamePoint B.V.
+Tickets: 2
+Action: send_new_code
+Code: GAMEPOINTBV-02-V8B (order=1, ticket=2)
+Notes: Should send a new code applied recently. Isfakur Rahman
+----------------------------------------
+Isfakur Rahman <isfaqrahman98@gmail.com>
+Studio: M/s Thunder Games
+Tickets: 3
+Action: send_new_code
+Code: MSTHUNDERGAMES-03-GT2 (order=1, ticket=3)
+Notes: Should send a new code applied recently. Ahmet Şentürk
+----------------------------------------
+Ahmet Şentürk <ahmet.senturk@heapgames.com>
+Studio: Heap Games
+Tickets: 3
+Action: send_new_code
+Code: HEAPGAMES-03-NEC (order=1, ticket=3)
+Notes: Should send a new code applied recently. Khaled Almoukhtar
+----------------------------------------
+Khaled Almoukhtar <khaled@wolvesinteractive.com>
+Studio: Wolves Interactive
+Tickets: 2
+Action: send_new_code
+Code: WOLVESINTERACTIV-02-NGJ (order=1, ticket=2)
+Notes: Should send a new code applied recently. Anne Marie
+----------------------------------------
+Anne Marie <community@digitalrealm-entertainment.com>
+Studio: Digital Realm entertainment, Inc.
+Tickets: 2
+Action: send_new_code
+Code: DIGITALREALMENTE-02-6X8 (order=1, ticket=2)
+Notes: Should send a new code applied recently. Ale Nino
+----------------------------------------
+Ale Nino <nino@yoamb.com>
+Studio: YOAMB
+Tickets: 1
+Action: send_new_code
+Code: YOAMB-01-5JW (order=1, ticket=1)
+Notes: Should send a new code applied recently. Yekta Kılıç
+----------------------------------------
+Yekta Kılıç <ykilic@kikigames.fun>
+Studio: Kiki Games
+Tickets: 6
+Action: send_new_code
+Code: KIKIGAMES-06-VBU (order=1, ticket=6)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Elif Ebru
+----------------------------------------
+Elif Ebru <elif.ebru@funreal.co>
+Studio: Funreal Games
+Tickets: 4
+Action: send_new_code
+Code: FUNREALGAMES-04-5P2 (order=1, ticket=4)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Alper Kılıçalp
+----------------------------------------
+Alper Kılıçalp <alkilicalp@gmail.com>
+Studio: Compact Core Games
+Tickets: 4
+Action: send_new_code
+Code: COMPACTCOREGAMES-04-RMK (order=1, ticket=4)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Emre Kokkaya
+----------------------------------------
+Emre Kokkaya <emre@sorrelgames.com>
+Studio: Sorrel Games
+Tickets: 4
+Action: send_new_code
+Code: SORRELGAMES-04-9L6 (order=1, ticket=4)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Eren Demir
+----------------------------------------
+Eren Demir <567eren567@gmail.com>
+Studio: Eastup Inveractive Games Oyun Yazılım Ticaret Limited Şirketi
+Tickets: 3
+Action: send_new_code
+Code: EASTUPINVERACTIV-03-7ZH (order=1, ticket=3)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Sara Elsam
+----------------------------------------
+Sara Elsam <sara.elsam@googlemail.com>
+Studio: Dev Null Productions
+Tickets: 1
+Action: send_new_code
+Code: DEVNULLPRODUCTIO-01-JSY (order=1, ticket=1)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Akın Artun Yüceege
+----------------------------------------
+Akın Artun Yüceege <akin@loopixgames.com>
+Studio: Loopix Games
+Tickets: 1
+Action: send_new_code
+Code: LOOPIXGAMES-01-N7S (order=1, ticket=1)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Ata Kog
+----------------------------------------
+Ata Kog <lootbagstudios.cy@gmail.com>
+Studio: LootBAG Studios
+Tickets: 5
+Action: send_new_code
+Code: LOOTBAGSTUDIOS-05-CC2 (order=1, ticket=5)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Juan Mendoza
+----------------------------------------
+Juan Mendoza <juanmendoza@perblue.com>
+Studio: PerBlue
+Tickets: 3
+Action: send_new_code
+Code: PERBLUE-03-ZPL (order=1, ticket=3)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Erdem Akbaba
+----------------------------------------
+Erdem Akbaba <erdem.akbaba@hotmail.com>
+Studio: Document34
+Tickets: 2
+Action: send_new_code
+Code: DOCUMENT34-02-3LG (order=1, ticket=2)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Nayeem Ahmad Shaon
+----------------------------------------
+Nayeem Ahmad Shaon <nayeem@rayadvertising.com>
+Studio: Ray Advertsing
+Tickets: 
+Action: reject
+Code: -
+Notes: Ray Advertsing We have sent the code previously  but they are not a game developer so we should email and reject them sanni khan
+----------------------------------------
+sanni khan <sannikhan501@gmail.com>
+Studio: Finz Games
+Tickets: 1
+Action: send_new_code
+Code: FINZGAMES-01-ETU (order=1, ticket=1)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Hüseyin Özsoy
+----------------------------------------
+Hüseyin Özsoy <H.ozsoy@vision4fun.com>
+Studio: Vision 4 Fun
+Tickets: 2
+Action: send_new_code
+Code: VISION4FUN-02-QXG (order=1, ticket=2)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Yunus Atalay
+----------------------------------------
+Yunus Atalay <yunusatalay@tutanota.com>
+Studio: Mergen Studios
+Tickets: 5
+Action: send_new_code
+Code: MERGENSTUDIOS-05-Q4N (order=1, ticket=5)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Dan Iva
+----------------------------------------
+Dan Iva <iva@benice.games>
+Studio: Be Nice games
+Tickets: 2
+Action: send_new_code
+Code: BENICEGAMES-02-6A4 (order=1, ticket=2)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Can Aslan
+----------------------------------------
+Can Aslan <obiraslan.21@gmail.com>
+Studio: BlackCoffee Games
+Tickets: 2
+Action: send_new_code
+Code: BLACKCOFFEEGAMES-02-HGH (order=1, ticket=2)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. QUDUS AKOREDE ABOLADE
+----------------------------------------
+QUDUS AKOREDE ABOLADE <qudusakorede97@outlook.com>
+Studio: BOLLY RECORDS & ENTERTAINMENT LIMITED
+Tickets: 1
+Action: send_new_code
+Code: BOLLYRECORDSANDE-01-6SN (order=1, ticket=1)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Harsh Savergaonkar
+----------------------------------------
+Harsh Savergaonkar <harsh@wegalabs.com>
+Studio: Wega Labs
+Tickets: 4
+Action: reject
+Code: -
+Notes: App Developer if you decide to share a code share a new one otherwise reject them and tell them the reason. Alpay Berk Çağlayan
+----------------------------------------
+Alpay Berk Çağlayan <ab.caglayan@gmail.com>
+Studio: Inviox Studios
+Tickets: 3
+Action: send_new_code
+Code: INVIOXSTUDIOS-03-9CL (order=1, ticket=3)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. ismail özel
+----------------------------------------
+ismail özel <programci42@gmail.com>
+Studio: ismail ozel games
+Tickets: 2
+Action: send_new_code
+Code: ISMAILOZELGAMES-02-LN4 (order=1, ticket=2)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one. Mert Hekimci
+----------------------------------------
+Mert Hekimci <mert.hekimci@roogi.games>
+Studio: Roogi Games
+Tickets: 4
+Action: send_new_code
+Code: ROOGIGAMES-04-WMU (order=1, ticket=4)
+Notes: We have sent the code previously they didn't buy the ticket, I deleted the old code, send them a new one.
+----------------------------------------

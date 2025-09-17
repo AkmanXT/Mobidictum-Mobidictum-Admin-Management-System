@@ -1,0 +1,199 @@
+{
+  "cookies": [
+    {
+      "name": "CookieConsent",
+      "value": "{stamp:%27-1%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27implied%27%2Cver:1%2Cutc:1756719211016%2Cregion:%27TR%27}",
+      "domain": "fienta.com",
+      "path": "/",
+      "expires": 1759311211,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.2136334617.1756719211",
+      "domain": ".fienta.com",
+      "path": "/",
+      "expires": 1764495211,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1633578945.1756719211",
+      "domain": ".fienta.com",
+      "path": "/",
+      "expires": 1791410881.134121,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "li_sugr",
+      "value": "6a7cbbce-e93a-4c57-9d5a-ce1255d911b4",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1764626881.591313,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&30698c0d-b8ee-4bbd-85bd-b2fb67c76839\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1788386882.591408,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&20250901093332915f7315-b04c-497b-8ba9-6a11a95d5367AQETPP-bVWOrHdloz3jYrxFnNCeci1uw\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1788255212.390389,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "intercom-id-k0c4xu6e",
+      "value": "0f93e89e-eaec-480b-ade1-882b20d301e9",
+      "domain": ".fienta.com",
+      "path": "/",
+      "expires": 1780180882,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "intercom-session-k0c4xu6e",
+      "value": "",
+      "domain": ".fienta.com",
+      "path": "/",
+      "expires": 1757455682,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "intercom-device-id-k0c4xu6e",
+      "value": "77bd5e77-11c9-402a-9450-c4c672e626fd",
+      "domain": ".fienta.com",
+      "path": "/",
+      "expires": 1780180882,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQLXbafGImtPYwAAAZkMakJif4FVMBLEjKzp0Fqi4lpgqFW0aabw-XyBn8eAQK2EIhSc5cnGO8s59A",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1759441913.674022,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQII1MaistdfrQAAAZkMakJi1D0jOEmgnHSY-TbZCagsrPJkMlMChQ1LfpTCCLEaBeTPsu31HKD8zBMPMrYTkA",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1759441913.674056,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=TGST02:s=T:r=T:a=T:p=T:g=3615:u=1:x=1:i=1756849914:t=1756936314:v=2:sig=AQFlqI3lldp2a1W9tjxInx9CV5XB3fTE\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1756936313.674125,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "FBXkZ75CHjYeff1vaAn67wl4gfYk3Bbmj4_aoiJfaG0-1756849914-1.0.1.1-WhEYbc8p2LGKsSd7JY6W59loZvCFbIhWuPBHN_Sx2CAtLA6FHvYf7aVvSZBQ5V5ZMkt8W5WcOnQCRcMi3kMEPq.KMvzzINRSQii5rqte2ZM",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1756851713.987779,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUmjeTDnsX3jd7CiR-bdVb0_iH4p02Et8dEZGUy9DmtbhhcxFcaDfUa2l3lT",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1791409915.1951,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+      "value": "eyJpdiI6InQzL1pPODlpZytta09EUXltQkt6cVE9PSIsInZhbHVlIjoiU2FXckxiS2VsYllFNXZxTnBqZmJxOFV1bG1MMS9RTm8zNEN2ZmhpTSs4S0wvNlFhbEFyN09yMXRGUUlCd3VPQnlEYTRZb3ErRDdwK3Y4UlFtNUhXSUhjbnpHNVJYY054dll0TGtCbForU05nWTVibEpoOTI2U0tvcnNvVDlHWnMvZndmMUV4N3lPODI1SlF0ZjNkdGlvUlpFRURBNW04MlFaSndabk5laHh2SFREZER5Vnd3WDRMTVB4NlFqZEh0MUhLcVhpMHFNVGNaZjIzWlNjMHdreW1PdUNWTDFoSGN5UUt6dk1wVkMxaz0iLCJtYWMiOiI2Yjg0MTUyNzVlOTczZjQ2NTkzZmI3N2M5MGJhZjBkMDVhOGNkYmY4MjhhOTQ4YTVmMTczZjY5OGNhZGFmMTllIiwidGFnIjoiIn0%3D",
+      "domain": "fienta.com",
+      "path": "/",
+      "expires": 1791410886.720317,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6ImFZc0taYzhHU3ZyajZvRGJES05SUmc9PSIsInZhbHVlIjoiQi8vMDdyRitpS3Z6WE0wTmRMZm9CN0MxTXhwOW1ERHFPU3hOODhmSTdrQXpMa3cxWG1iL2cxdzF2U2pBK0FIZUVaSzlqRExvSCtNVHB0RFBPNlArNFBJdXhBQjJoaTMxendtQTRUb2NqLzR5NGtYSEJGM1dDTEFZaHZUVzNOT0QiLCJtYWMiOiI1YjVjM2U1OWFmN2Y5NjcyNzJhYzg4MmUzYTdhZDllZGJiNjE2YjU0OTY1Yzc4MWZjYzQ5YzQ3MjZiNzQ5ODQzIiwidGFnIjoiIn0%3D",
+      "domain": "fienta.com",
+      "path": "/",
+      "expires": 1756937286.998314,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "laravel_session",
+      "value": "eyJpdiI6Ik5XOTlsYWdnRTM5NjZzVnJaYldUUkE9PSIsInZhbHVlIjoiK2ViYmRmYktaYnhIeG02YWlXeTBPRTdqYjZ5Ryt1WUsyQkxnN3NIdk95WFdtcVM4NHpJL21ZL2k5enpndDVIVFkrU2JJMlhHWmdvYVhPcFBKRnJHYVFwdDR1eGpXVTJhNEt0RVZhU080WUwrS2dMRkpqL3gycEMwd0krZGs5SEQiLCJtYWMiOiJlMGVlZDg5ZDg1ZjRiNWU1YmI0ZDg1ZGY4MWQ2ZWY4ZTlkYjU4ZDljMTFmZjdlZDU2NzcwMmNkYWEwODJkOWM5IiwidGFnIjoiIn0%3D",
+      "domain": "fienta.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_M5YWYY6N2J",
+      "value": "GS2.1.s1756849913$o2$g1$t1756850887$j54$l0$h0",
+      "domain": ".fienta.com",
+      "path": "/",
+      "expires": 1791410887.006048,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://fienta.com",
+      "localStorage": [
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"creationTimeMs\":1756719211170},\"expires\":1764495211170}}"
+        },
+        {
+          "name": "intercom.intercom-state-k0c4xu6e",
+          "value": "{\"app\":{\"openConfig\":{\"layout\":\"default\",\"unifiedStyling\":true,\"openTo\":\"home\",\"spaces\":[{\"type\":\"home\",\"label\":\"Home\",\"navigationLabel\":\"Home\",\"badge\":null},{\"type\":\"messages\",\"label\":\"Messages\",\"navigationLabel\":\"Messages\",\"badge\":null},{\"type\":\"tickets\",\"label\":\"Tickets\",\"navigationLabel\":\"Tickets\",\"badge\":null},{\"type\":\"help\",\"label\":\"Help\",\"navigationLabel\":\"Help\",\"badge\":null}],\"userHasReceivedChecklists\":false,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"Fienta\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"googleAnalytics4Integration\":true},\"helpCenterSiteUrl\":\"https://intercom.help/fienta\",\"inboundConversationsDisabled\":false,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":false},\"launcherSettings\":{\"alignment\":\"right\",\"color\":\"#1047F8\",\"colorDark\":\"#5e95ff\",\"hasRequiredFeatures\":true,\"horizontalPadding\":30,\"instantBootEnabled\":true,\"launcherLogoUrl\":null,\"launcherLogoDarkUrl\":null,\"secondaryColor\":\"#041554\",\"secondaryColorDark\":\"#041554\",\"showLauncher\":true,\"themeMode\":\"light\",\"updatedAt\":1756836233,\"verticalPadding\":30,\"isLoading\":false},\"user\":{\"role\":\"visitor\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{},\"lastOpenAtTimestamp\":1756850883371},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"isInitialized\":false,\"navigationQueue\":[]}}"
+        }
+      ]
+    }
+  ]
+}

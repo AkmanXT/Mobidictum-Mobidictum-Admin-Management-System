@@ -1,0 +1,19 @@
+Edit URL: https://fienta.com/my/events/118714/discounts/246985/edit
+Return code: 1
+
+STDOUT:
+Navigating to: https://fienta.com/my/events/118714/discounts/246985/edit
+Looking for Delete button with class .btn-delete...
+
+
+STDERR:
+❌ Error: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('button.btn-delete, .btn-delete') to be visible[22m
+
+Stack: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('button.btn-delete, .btn-delete') to be visible[22m
+
+    at C:\Users\serda\Desktop\Projects\Small\Fienta Code Manager\temp\delete_SERAKM-002-MFKIJ4QCUQ6_20250915_084427.js:46:24
+

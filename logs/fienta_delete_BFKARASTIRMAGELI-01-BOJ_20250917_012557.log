@@ -1,0 +1,15 @@
+Edit URL: https://fienta.com/my/events/118714/discounts/247383/edit
+Return code: 0
+
+STDOUT:
+Navigating to: https://fienta.com/my/events/118714/discounts/247383/edit
+Looking for Delete button with class .btn-delete...
+Found Delete button! Clicking...
+Waiting for confirmation dialog...
+Found confirmation button: .btn-danger:has-text("Delete")
+Waiting for operation to complete...
+✅ Delete operation completed successfully - redirected to discounts list
+
+
+STDERR:
+

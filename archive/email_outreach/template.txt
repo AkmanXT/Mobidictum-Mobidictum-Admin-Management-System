@@ -1,0 +1,21 @@
+Hello {{speaker_name}},
+
+We are very pleased to have you as a speaker at our conference in Istanbul, 21–22 October.
+
+In order to create speaker profile and promotions, we need you to fill out this Speaker Registration form: {{form_url}}
+
+Please get your ticket from here and apply code: "{{ticket_code}}"
+
+Your session date and stage will be revealed in two weeks.
+
+All sessions are in between 10:00 - 16:00
+
+If you haven't booked your travel yet, we would like to remind you we have hotel discounts below the conference page.
+
+On 20th October, there will be an Executive Mixer for Speakers and Executive Ticket holders; you are welcomed there.
+
+Looking forward!
+
+Kind regards,
+
+Mobidictum Conference Team

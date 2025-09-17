@@ -1,0 +1,30 @@
+Edit URL: https://fienta.com/my/events/118714/discounts/246985/edit
+Return code: 1
+
+STDOUT:
+
+
+STDERR:
+node:internal/modules/cjs/loader:1413
+  throw err;
+  ^
+
+Error: Cannot find module 'playwright'
+Require stack:
+- C:\Users\serda\AppData\Local\Temp\tmpscdfqb7u.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1410:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.require (node:internal/modules/cjs/loader:1493:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\serda\AppData\Local\Temp\tmpscdfqb7u.js:2:22)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'C:\\Users\\serda\\AppData\\Local\\Temp\\tmpscdfqb7u.js' ]
+}
+
+Node.js v24.5.0
+
