@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: fienta-code-manager-api
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      - key: ENABLE_MONITORING
+        value: "true"
+      - key: FIENTA_BASE_URL
+        value: "https://fienta.com"
+      - key: FIENTA_EVENT_ID
+        value: "118714"
+      - key: CORS_ORIGINS
+        value: "https://v0.app,https://preview-cmo-system-design-kzmjzsgx8ycwmsao2aga.vusercontent.net"
+      - key: FIENTA_EMAIL
+        value: "ops@mobidictum.com"
+      # Secrets - these will need to be set in Render dashboard:
+      # - SUPABASE_URL (from your Supabase project settings)
+      # - SUPABASE_SERVICE_ROLE_KEY (from your Supabase project API keys)
+      # - FIENTA_PASSWORD (your Fienta login password)
+      # - FIENTA_AUTH_STATE (base64 encoded auth/state.json for Playwright)

@@ -1,0 +1,27 @@
+# Test API endpoints locally
+# Use with REST Client extension in VS Code
+
+### Health Check
+GET http://localhost:8000/health
+
+### API Root
+GET http://localhost:8000/
+
+### API Documentation
+GET http://localhost:8000/docs
+
+### Test CORS (check if v0.app can connect)
+OPTIONS http://localhost:8000/codes
+Origin: https://v0.app
+
+### List Codes (add your API key)
+GET http://localhost:8000/codes
+# Authorization: Bearer your-api-key-here
+
+### Test Action Processing
+POST http://localhost:8000/actions/process
+# Authorization: Bearer your-api-key-here
+
+### Check Action Status  
+GET http://localhost:8000/actions/status
+# Authorization: Bearer your-api-key-here
