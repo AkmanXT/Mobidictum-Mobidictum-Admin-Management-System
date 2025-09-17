@@ -40,15 +40,22 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Install Playwright browsers in the final image (required at runtime)
 RUN npx playwright install --with-deps chromium
 
+# Build TypeScript if needed
+RUN npm run build
+
 # Copy application code
 COPY app/ ./app/
 COPY archive/ ./archive/
+COPY scripts/ ./scripts/
 
 # Create necessary directories
 RUN mkdir -p logs auth temp data
 
 # Copy archived scripts (needed for email functionality)
 COPY archive/email_outreach/ ./archive/email_outreach/
+
+# Make startup script executable
+RUN chmod +x scripts/startup.sh
 
 # Set environment variables
 ENV PYTHONPATH=/app
@@ -61,5 +68,5 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:8000/health || exit 1
 
-# Run the application
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run the application via startup script
+CMD ["./scripts/startup.sh"]

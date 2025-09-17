@@ -17,8 +17,10 @@ services:
         value: "118714"
       - key: CORS_ORIGINS
         value: "https://your-frontend-domain.com,https://preview-cmo-system-design-kzmjzsgx8ycwmsao2aga.vusercontent.net"
+      - key: FIENTA_EMAIL
+        value: "serdar@mobidictum.com"
       # Secrets - these will need to be set in Render dashboard:
       # - SUPABASE_URL (from your Supabase project settings)
       # - SUPABASE_SERVICE_ROLE_KEY (from your Supabase project API keys)
-      # - FIENTA_EMAIL (your Fienta login email)
       # - FIENTA_PASSWORD (your Fienta login password)
+      # - FIENTA_AUTH_STATE (base64 encoded auth/state.json for Playwright)
