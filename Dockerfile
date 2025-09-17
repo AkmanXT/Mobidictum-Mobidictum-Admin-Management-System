@@ -4,7 +4,12 @@ FROM node:18-slim as node-base
 # Install Node.js dependencies for Fienta automation
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci --only=production
+COPY tsconfig.json ./
+COPY src/ ./src/
+RUN npm ci
+
+# Build TypeScript in Node stage
+RUN npm run build
 
 # Install Playwright browsers
 RUN npx playwright install --with-deps chromium
@@ -29,18 +34,18 @@ WORKDIR /app
 
 # Copy Node.js files and dependencies
 COPY --from=node-base /app/node_modules ./node_modules
+COPY --from=node-base /app/dist ./dist/
 COPY --from=node-base /root/.cache/ms-playwright /root/.cache/ms-playwright
 COPY package*.json ./
 COPY tsconfig.json ./
 COPY src/ ./src/
-COPY dist/ ./dist/
 
 # Copy Python requirements and install
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Build TypeScript if needed
-RUN npm run build
+# TypeScript files are pre-built in dist/ directory
+# RUN npm run build
 
 # Copy application code
 COPY app/ ./app/
