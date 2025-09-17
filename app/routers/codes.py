@@ -5,6 +5,7 @@ from app.models import (
     Code, CodeCreate, CodeUpdate, CodeStatus, CodeType, 
     CodeAllocateResponse, APIResponse
 )
+from app.auth import verify_api_key
 from typing import Optional, List
 import logging
 from datetime import datetime
@@ -16,7 +17,8 @@ router = APIRouter(prefix="/api/codes", tags=["codes"])
 @router.post("", response_model=APIResponse)
 async def create_code(
     code_data: CodeCreate,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Create a new discount code."""
     try:
@@ -323,7 +325,8 @@ async def update_code(
 @router.delete("/{code}")
 async def delete_code(
     code: str,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Delete a discount code from both database and Fienta."""
     try:

@@ -8,6 +8,9 @@ class Settings(BaseSettings):
     supabase_url: Optional[str] = None
     supabase_service_role_key: Optional[str] = None
     
+    # API Security
+    api_key: Optional[str] = None
+    
     # Webhook auth
     make_token: Optional[str] = None
     

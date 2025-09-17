@@ -11,6 +11,7 @@ from supabase import Client
 from app.deps import get_supabase_client
 from app.models import APIResponse
 from app.services.scheduler import get_scheduler
+from app.auth import verify_api_key
 
 import logging
 
@@ -21,7 +22,8 @@ router = APIRouter(prefix="/api/actions", tags=["actions"])
 @router.post("/codes/create")
 async def request_code_creation(
     code_data: Dict[str, Any],
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Request creation of a new discount code in Fienta"""
     try:
@@ -79,7 +81,8 @@ async def request_code_creation(
 async def request_code_update(
     code: str,
     update_data: Dict[str, Any],
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Request update of an existing discount code in Fienta"""
     try:
@@ -136,7 +139,8 @@ async def request_code_update(
 @router.post("/codes/{code}/delete")
 async def request_code_deletion(
     code: str,
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Request deletion of a discount code from Fienta"""
     try:
@@ -389,7 +393,8 @@ async def get_action_history(
 
 @router.post("/process")
 async def process_pending_actions(
-    supabase: Client = Depends(get_supabase_client)
+    supabase: Client = Depends(get_supabase_client),
+    auth: bool = Depends(verify_api_key)
 ):
     """Manually trigger action processing for pending actions"""
     try:
